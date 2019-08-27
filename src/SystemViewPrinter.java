@@ -18,7 +18,7 @@ public class SystemViewPrinter {
                 System.out.println("There are no available vehicles for this time period.");
             }
             else {
-                System.out.println("Printing the booked vehicles : ");
+                System.out.println("Printing the available vehicles : ");
                 availableVehicleViewList.forEach(vehicleView -> {
                     System.out.println(vehicleView.getVehicleType()
                             + "  is available for this rate " + vehicleView.getVehicleRate());
